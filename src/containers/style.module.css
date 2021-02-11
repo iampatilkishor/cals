@@ -1,0 +1,39 @@
+.main {
+  width: 400px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.display {
+  width: 400px;
+  text-align: end;
+  height: 42px;
+  padding: 16px 0px 0px;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+
+.numberContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.numberButton {
+  min-width: 100px;
+  height: 30px;
+  text-align: center;
+}
+
+.actionButton {
+  min-width: 100px;
+  text-align: end;
+  height: 30px;
+}
+
+.textCenter {
+  text-align: center;
+}
